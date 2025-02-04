@@ -25,6 +25,8 @@
             <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
 
             <form method="post" enctype="multipart/form-data">
+              <!-- ... -->
+
               <!-- First Info - Kid -->
               <fieldset class="child-info">
                 <legend>Informações da Criança</legend>
@@ -75,6 +77,7 @@
                   
                 </div>
               </fieldset>
+              
               <!-- Second Info - Place -->
                <fieldset class="address">
                 <legend>Endereço residencial</legend>
@@ -116,6 +119,7 @@
                 </div>
                 <!-- ... -->
                </fieldset>
+
               <!-- Third Info - Parents -->
                <fieldset class="gardian">
                 <legend>Informações do Responsável</legend>
@@ -145,6 +149,7 @@
 
                 <!-- ... -->
                </fieldset>
+
                 <!-- Fourth Info - Shift -->
                <fieldset class="enroll-options">
                 <legend>Opções de Matrícula</legend>
@@ -152,6 +157,7 @@
                 <div class="input-wrapper">
                   <label>Selecione o Turno de estudo</label>
                   <div class="radio-wrapper">
+
                     <!-- Matutino -->
                     <div class="radio inner">
                       <div class="radio-image"></div>
@@ -159,20 +165,21 @@
                       <img src="./assets/icons/sun-cloud-02.svg" alt="sol e nuvem">
                       <label for="morning">Manhã</label>
                     </div>
-                  </div>
-                  <!-- Vespertino -->
+
+                    <!-- Vespertino -->
                     <div class="radio inner">
                       <div class="radio-image"></div>
                       <input type="radio" name="study-shift" value="evening" id="evening">
                       <img src="./assets/icons/sun-02.svg" alt="sol">
                       <label for="evening">Tarde</label>
                     </div>
+
                   </div>
                 </div>
 
-                <!-- ... -->
                </fieldset>
 
+               <!-- ... -->
             </form>
           </div>
         </main>
